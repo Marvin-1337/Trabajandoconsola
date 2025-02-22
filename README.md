@@ -12,9 +12,12 @@ namespace MyCompiler {
 
         void ejemploleer() {
             String path ="C:\\p1\\misarchivos\\archivo.txt"; 
+        try{
             String contenido = file.ReadAllText (path);
             Console.WriteLine ("contenido del archivo");
             Console.WriteLine (contenido);
+           } catch\\DirectoryNotFoundxception err) {
+           Console.WriteLine ("valió queso el programa" );
             }
 
         void ejemploleerlieas() {
