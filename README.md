@@ -18,6 +18,8 @@ namespace MyCompiler {
             Console.WriteLine (contenido);
            } catch\\DirectoryNotFoundxception err) {
            Console.WriteLine ("valió queso el programa" );
+           catch\\(Exeption err) {
+           Console.WriteLine ("Error 45 (el programador no sabe que paso) " );
             }
 
         void ejemploleerlieas() {
